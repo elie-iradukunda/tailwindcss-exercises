@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "A basic project with Tailwind CSS",
   "main": "index.js",
-  "scripts": {
-    "dev": "tailwindcss -i ./public/style.css -o ./output/output.css --watch"
-  },
+ "scripts": {
+  "dev": "npx tailwindcss -i ./public/style.css -o ./output/output.css --watch",
+  "build": "npx tailwindcss -i ./public/style.css -o ./output/output.css --minify"
+},
+
   "keywords": [],
   "author": "",
   "license": "ISC",
