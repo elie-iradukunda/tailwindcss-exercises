@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Free movies</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-950">
+  <header class="bg-blue-950 shadow-md text-white">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      
+      <div class="text-xl font-bold">TV5MONDEPLUS</div>
+
+   
+      <nav>
+        <ul class="hidden md:flex space-x-6 font-medium">
+          <li><a href="#" class="hover:text-blue-500">Cinema</a></li>
+          <li><a href="#" class="hover:text-blue-500">TV series and TV films</a></li>
+          <li><a href="#" class="hover:text-blue-500">Discovery</a></li>
+          <li><a href="#" class="hover:text-blue-500">Environment</a></li>
+          <li><a href="#" class="hover:text-blue-500">Culture & Lifestyle</a></li>
+          <li>
+            <select name="more" id="more" class="bg-white border border-gray-300 rounded px-2 py-1 text-black">
+              <option value="history">History & Society</option>
+              <option value="kids">Kids & Family</option>
+              <option value="language">French Language</option>
+            </select>
+          </li>
+        </ul>
+      </nav>
+
+      
+      <div class="flex items-center space-x-4">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white hover:text-blue-600 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m21 21-5.197-5.197M15.803 15.803A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white hover:text-blue-600 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+        </svg>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div>
+        <div class="text-center text-white">
+            <h1 class="text-4xl font-bold ">Cinema</h1>
+            <p class="text-xl mt-2.5">Cinema in all its forms: comedy, drama, thriller, action, adventure, horror, science fiction, fantasy...</p>
+
+            <div class="flex flex-row gap-5 mt-5 justify-center">
+                <span class="rounded-xl border border-amber-100 text-xl p-2 text-white">comedy</span>
+                <span class="rounded-xl border border-amber-100 text-xl p-2 text-white">Dramedy</span>
+                <span class="rounded-xl border border-amber-100 text-xl p-2 text-white">Drama</span>
+                <span class="rounded-xl border border-amber-100 text-xl p-2 text-white">Documentary</span>
+                <span class="rounded-xl border border-amber-100 text-xl p-2 text-white">Crime and thriller</span>
+                <span class="rounded-xl border border-amber-100 text-xl p-2 text-white">short film</span>
+                <span class="rounded-xl border border-amber-100 text-xl p-2 text-white">Animation</span>
+                <span class="rounded-xl border border-amber-100 text-xl p-2 text-white">Historical</span>
+            </div>
+        </div>
+    </div>
+
+   <div class="grid grid-cols-2 items-center mx-auto w-fit p-4 mr-10 ml-10">
+  <div>
+    <span class="text-sm text-gray-400">Cinema | Shortmovie</span>
+    <h3 class="text-2xl font-bold text-white">2030</h3>
+    <p class="text-white mt-2">
+      November 2030. It's 48°C in the <br>
+      classroom. Impossible to do any teaching. <br>
+      <strong>Directed and written by:</strong> Pierre Dugowson <br>
+      (France, 2020) Cast: Nicole
+    </p>
+    <span class="inline-block mt-4 rounded-xl border border-amber-100 text-xl p-2 text-white hover:bg-amber-100 hover:text-black cursor-pointer">
+      Discover
+    </span>
+  </div>
+  <div>
+    <img src="./images/discover.jpeg" alt="Discover Image" class="rounded-lg max-w-full h-auto" />
+  </div>
+</div>
+
+
+<div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl mb-3.5 text-amber-50 cursor-pointer">Comedy</h2>
+    <div class="grid grid-cols-5 gap-3 items-center justify-around">
+        
+        <img src="./images/ima1.jpeg" alt="" class="rounded-xl h-[300px] w-full object-cover transition duration-500 hover:scale-105" />
+
+        <img src="./images/ima2.jpeg" alt="" class="rounded-xl h-[300px] w-full object-cover transition duration-500 hover:scale-105">
+        <img src="./images/ima3.jpeg" alt="" class="rounded-xl h-[300px] w-full object-cover transition duration-500 hover:scale-105">
+        <img src="./images/ima4.jpeg" alt="" class="rounded-xl h-[300px] w-full object-cover transition duration-500 hover:scale-105">
+        <img src="./images/ima5.jpeg" alt="" class="rounded-xl h-[300px] w-full object-cover transition duration-500 hover:scale-105">
+    </div>
+</div>
+
+
+<div class="mx-auto max-w-6xl mt-[3cm] text-amber-50">
+      <h2 class="text-2xl">Dramedy</h2>
+     <div class="grid grid-cols-5 gap-3 items-center justify-around ">
+        
+        <img src="./images/d1.jpeg" alt="" class="rounded-xl h-[300px] w-full object-cover transition duration-500 hover:scale-105" />
+
+        <img src="./images/d2.jpeg" alt="" class="rounded-xl h-[300px] w-full object-cover transition duration-500 hover:scale-105">
+        <img src="./images/d3.jpeg" alt="" class="rounded-xl h-[300px] w-full object-cover transition duration-500 hover:scale-105">
+        <img src="./images/d4.jpeg" alt="" class="rounded-xl h-[300px] w-full object-cover transition duration-500 hover:scale-105">
+        <img src="./images/d5.jpeg" alt="" class="rounded-xl h-[300px] w-full object-cover transition duration-500 hover:scale-105">
+    </div>
+</div>
+  </main>
+</body>
+</html>
